@@ -2,7 +2,7 @@ name: Scraper Monaco
 
 on:
   schedule:
-    - cron: '38 2 */2 * *'
+    - cron: '55 15 * * *'
   workflow_dispatch:
 
 # Prevent a manual run and a scheduled run (or two schedules) from overlapping.
